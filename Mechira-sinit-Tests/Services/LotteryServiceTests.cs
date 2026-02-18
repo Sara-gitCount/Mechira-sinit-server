@@ -125,7 +125,6 @@ namespace WebApplication1.Tests.Services
 
             var service = new LotteryService(mockLotteryRepo.Object, mockGiftRepo.Object, new Mock<ILogger<LotteryService>>().Object);
 
-            // If users list contains null, selection may be null -> method returns false
             var result = await service.LotteryAsync();
 
             Assert.False(result);
