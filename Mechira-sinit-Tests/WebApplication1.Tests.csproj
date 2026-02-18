@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Moq" Version="4.18.4" />
+    <PackageReference Include="xunit" Version="2.6.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.8.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="WebApplication1">
+      <HintPath>c:\\Users\\User\\Desktop\\שרי\\מכירה סינית\\‏‏תיקיה חדשה\\c\\s\\WebApplication1\\bin\\Debug\\net10.0\\WebApplication1.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebApplication1\WebApplication1\WebApplication1.csproj" />
+  </ItemGroup>
+
+</Project>

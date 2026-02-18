@@ -1,0 +1,223 @@
+﻿using Microsoft.Extensions.Logging;
+using WebApplication1.Dto;
+using WebApplication1.Interfaces;
+using WebApplication1.Models;
+using static WebApplication1.Dto.DtoAuth;
+
+namespace WebApplication1.Services
+{
+    public class UesrService : IUsersService
+    {
+        private readonly IUsersRepository usersRepository;
+        private readonly ILogger<UesrService> logger;
+        private readonly ITokenService _tokenService;
+        private readonly IConfiguration _configuration;
+        public UesrService(IUsersRepository usersRepository, ILogger<UesrService> logger,
+                  ITokenService tokenService,
+        IConfiguration configuration)
+        {
+            this.usersRepository = usersRepository;
+            this.logger = logger;
+            _tokenService = tokenService;
+            _configuration = configuration;
+        }
+        public async Task<DtoUser> CreateUserAsync(User user)
+        {
+            if (user == null)
+            {
+                logger.LogError("Failed to create a null user");
+                throw new ArgumentNullException(nameof(user));
+            }
+            if (await ExistingEmailAsync(user.Email))
+            {
+                throw new ArgumentException("This email already exists");
+            }
+            var newUser = new User
+            {
+                Id = user.Id,
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Email = user.Email,
+                Password = HashPassword(user.Password), // Simplified - use proper hashing
+                Phone = user.Phone,
+                Address = user.Address,
+                Roles = "user"
+            };
+            var u = await usersRepository.CreateUserAsync(newUser);
+            if (u == null)
+            {
+                logger.LogError("Failed to create user");
+                throw new Exception("Errors adding user");
+            }
+            logger.LogInformation("User created");
+            return MapRegilurToDto(u);
+        }
+
+        public async Task<bool> DeleteUserAsync(int id)
+        {
+            if (id == 0)
+            {
+                logger.LogError("Failed to delete user with invalid id 0");
+                throw new ArgumentException("Invalid id");
+            }
+            var user = await usersRepository.DeleteUserAsync(id);
+            if (!user)
+            {
+                logger.LogError("User with id {Id} not found for deletion", id);
+                throw new KeyNotFoundException($"User with id {id} was not found");
+            }
+            await usersRepository.DeleteUserAsync(id);
+            logger.LogInformation("User with id {Id} deleted successfully", id);
+            return user;
+        }
+
+        public async Task<List<DtoUser>> GetAllUsersAsync()
+        {
+            var users = await usersRepository.GetAllUsersAsync();
+            if (users == null)
+                logger.LogWarning("No users found in GetAllUsers");
+            return users.Select(MapRegilurToDto).ToList();
+        }
+
+        public async Task<DtoUser> GetUserByIdAsync(int id)
+        {
+            if (id == 0)
+            {
+                logger.LogError("Failed to get user with invalid id 0");
+                throw new ArgumentException("Invalid id");
+            }
+            var user = await usersRepository.GetUserByIdAsync(id);
+            if (user == null)
+            {
+                logger.LogError("User with id {Id} not found", id);
+                throw new KeyNotFoundException($"User with id {id} was not found");
+            }
+            return MapRegilurToDto(user);
+        }
+
+        public async Task<DtoUser> UpdateUserAsync(User user)
+        {
+            if (user == null)
+            {
+                logger.LogError("Failed to update a null user");
+                throw new ArgumentNullException(nameof(user));
+            }
+            var u = await usersRepository.UpdateUserAsync(user);
+            if (u == null)
+            {
+                logger.LogError("Failed to update user");
+                throw new Exception("Errors updating user");
+            }
+            logger.LogInformation("User updated");
+            return MapRegilurToDto(u);
+        }
+        public async Task<List<Basket>> Basket(int id)
+        {
+            if (id <= 0)
+            {
+                logger.LogError("Failed to get basket for invalid user id {Id}", id);
+                throw new ArgumentException("Invalid id");
+            }
+
+            // ask repository for the user's gifts (repository returns one Gift per gift type,
+            // with Gift.Orders populated with that user's orders for that gift)
+            var gifts = await usersRepository.Basket(id);
+
+            if (gifts == null || !gifts.Any())
+            {
+                logger.LogWarning("No gifts found for user id {Id}", id);
+                return new List<Basket>();
+            }
+
+            // map Gift -> Basket DTO (Amount = number of orders for that gift by this user)
+            var result = gifts.Select(g => new Basket
+            {
+                Id = g.Id,
+                Name = g.Name,
+                Description = g.Description,
+                Image = g.Image,
+                Price = g.Price,
+                CategoryName = g.Category?.Name ?? string.Empty,
+                Amount = g.Orders?.Count ?? 0      
+            }).ToList();
+
+            return result;
+        }
+        public async Task<LoginResponseDto?> AuthenticateAsync(string email, string password)
+        {
+            var user = await usersRepository.GetUserByEmailAsync(email);
+
+            if (user == null)
+            {
+                logger.LogWarning("Login attempt failed: User not found for email {email}", email);
+                return null;
+            }
+
+            // Verify password (simplified - in production use proper password verification)
+            var hashedPassword = HashPassword(password);
+            if (user.Password != hashedPassword)
+            {
+                logger.LogWarning("Login attempt failed: Invalid password for email {email}", email);
+                return null;
+            }
+
+            var token = _tokenService.GenerateToken(user.Id, user.Email, user.FirstName, user.LastName,user.Roles);
+            var expiryMinutes = _configuration.GetValue<int>("JwtSettings:ExpiryMinutes", 60);
+
+            logger.LogInformation("User {UserId} authenticated successfully", user.Id);
+
+            return new LoginResponseDto
+            {
+                Token = token,
+                TokenType = "Bearer",
+                ExpiresIn = expiryMinutes * 60, // Convert to seconds
+                User = user
+            };
+        }
+
+        public async Task<bool> ExistingEmailAsync(string email)
+        {
+            var users = await usersRepository.GetAllUsersAsync();
+            foreach (var user in users)
+            {
+                if (user.Email == email)
+                    return true;
+            }
+            return false;
+        }
+
+        private static DtoUser MapRegilurToDto(User user)
+        {
+            return new DtoUser
+            {
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Email = user.Email,
+                Phone = user.Phone
+            };
+        }
+        private static string HashPassword(string password)
+        {
+            return Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(password));
+        }
+        private static UserCreateDto MapToResponseDto(User user)
+        {
+            return new UserCreateDto
+            {
+                FirstName = user.FirstName,
+                LastName = user.LastName,
+                Email = user.Email,
+                Phone = user.Phone,
+                Address = user.Address,
+            };
+        }
+
+        public async Task<User> GetUserByEmailAsync(string email)
+        {
+            var user = await usersRepository.GetUserByEmailAsync(email);
+            return user;
+        }
+
+       
+    }
+}

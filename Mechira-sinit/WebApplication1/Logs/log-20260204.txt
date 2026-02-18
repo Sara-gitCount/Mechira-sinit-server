@@ -1,0 +1,230 @@
+2026-02-04 14:07:16.336 +02:00 [INF] Store API now running {}
+2026-02-04 14:07:25.570 +02:00 [INF] Incoming Request: GET /swagger/index.js {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:00000009","RequestPath":"/swagger/index.js","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:25.570 +02:00 [INF] Incoming Request: GET /swagger/swagger-ui-bundle.js {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:00000005","RequestPath":"/swagger/swagger-ui-bundle.js","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:25.570 +02:00 [INF] Incoming Request: GET /swagger/swagger-ui.css {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:00000003","RequestPath":"/swagger/swagger-ui.css","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:25.570 +02:00 [INF] Incoming Request: GET /swagger/index.css {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:00000001","RequestPath":"/swagger/index.css","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:25.570 +02:00 [INF] Incoming Request: GET /swagger/swagger-ui-standalone-preset.js {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:0000000B","RequestPath":"/swagger/swagger-ui-standalone-preset.js","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:25.780 +02:00 [INF] Completed GET /swagger/index.css responded 304 in 226ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:00000001","RequestPath":"/swagger/index.css","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:25.901 +02:00 [INF] Completed GET /swagger/swagger-ui.css responded 200 in 348ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:00000003","RequestPath":"/swagger/swagger-ui.css","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:25.901 +02:00 [INF] Completed GET /swagger/swagger-ui-standalone-preset.js responded 200 in 348ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:0000000B","RequestPath":"/swagger/swagger-ui-standalone-preset.js","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:25.972 +02:00 [INF] Completed GET /swagger/swagger-ui-bundle.js responded 200 in 419ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:00000005","RequestPath":"/swagger/swagger-ui-bundle.js","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:26.494 +02:00 [INF] Completed GET /swagger/index.js responded 200 in 941ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:00000009","RequestPath":"/swagger/index.js","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:26.788 +02:00 [INF] Incoming Request: GET /swagger/v1/swagger.json {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:0000000F","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:27.414 +02:00 [INF] Completed GET /swagger/v1/swagger.json responded 200 in 626ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:0000000F","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:43.920 +02:00 [INF] Incoming Request: GET /lottery/Lottery/GetAllWinners {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:00000011","RequestPath":"/lottery/Lottery/GetAllWinners","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:44.621 +02:00 [INF] GetAllWinnersAsync: retrieving winners. {"SourceContext":"WebApplication1.Services.LotteryService","ActionId":"acaf75fb-6db2-4a91-adf3-eef273c23fea","ActionName":"WebApplication1.Controllers.LotteryController.GetAllWinners (WebApplication1)","RequestId":"0HNJ3SNP0TID5:00000011","RequestPath":"/lottery/Lottery/GetAllWinners","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:49.772 +02:00 [INF] GetAllWinnersAsync: found 0 winners. {"SourceContext":"WebApplication1.Services.LotteryService","ActionId":"acaf75fb-6db2-4a91-adf3-eef273c23fea","ActionName":"WebApplication1.Controllers.LotteryController.GetAllWinners (WebApplication1)","RequestId":"0HNJ3SNP0TID5:00000011","RequestPath":"/lottery/Lottery/GetAllWinners","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:49.820 +02:00 [INF] Completed GET /lottery/Lottery/GetAllWinners responded 200 in 5899ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:00000011","RequestPath":"/lottery/Lottery/GetAllWinners","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:59.101 +02:00 [INF] Incoming Request: GET /lottery/Lottery/GetAllRevenue {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:00000013","RequestPath":"/lottery/Lottery/GetAllRevenue","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:59.134 +02:00 [INF] GetAllRevenue: starting retrieval of total revenue. {"SourceContext":"WebApplication1.Services.LotteryService","ActionId":"ea67d28a-4f31-4711-b298-d111c1d2fefe","ActionName":"WebApplication1.Controllers.LotteryController.GetAllRevenue (WebApplication1)","RequestId":"0HNJ3SNP0TID5:00000013","RequestPath":"/lottery/Lottery/GetAllRevenue","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:59.808 +02:00 [INF] GetAllRevenue: retrieved revenue = 270. {"SourceContext":"WebApplication1.Services.LotteryService","ActionId":"ea67d28a-4f31-4711-b298-d111c1d2fefe","ActionName":"WebApplication1.Controllers.LotteryController.GetAllRevenue (WebApplication1)","RequestId":"0HNJ3SNP0TID5:00000013","RequestPath":"/lottery/Lottery/GetAllRevenue","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:07:59.820 +02:00 [INF] Completed GET /lottery/Lottery/GetAllRevenue responded 200 in 718ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:00000013","RequestPath":"/lottery/Lottery/GetAllRevenue","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:08:17.544 +02:00 [INF] Incoming Request: POST /lottery/Lottery {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:00000015","RequestPath":"/lottery/Lottery","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:08:17.613 +02:00 [INF] LotteryAsync: starting lottery run. {"SourceContext":"WebApplication1.Services.LotteryService","ActionId":"829ff9bc-926b-4f25-b5e4-086497a6a918","ActionName":"WebApplication1.Controllers.LotteryController.Lottery_SendingEmail (WebApplication1)","RequestId":"0HNJ3SNP0TID5:00000015","RequestPath":"/lottery/Lottery","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:08:18.285 +02:00 [INF] LotteryAsync: processing gift 4 - 8 chairs. {"SourceContext":"WebApplication1.Services.LotteryService","ActionId":"829ff9bc-926b-4f25-b5e4-086497a6a918","ActionName":"WebApplication1.Controllers.LotteryController.Lottery_SendingEmail (WebApplication1)","RequestId":"0HNJ3SNP0TID5:00000015","RequestPath":"/lottery/Lottery","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:08:18.525 +02:00 [INF] LotteryAsync: selected potential winner 8 for gift 4. {"SourceContext":"WebApplication1.Services.LotteryService","ActionId":"829ff9bc-926b-4f25-b5e4-086497a6a918","ActionName":"WebApplication1.Controllers.LotteryController.Lottery_SendingEmail (WebApplication1)","RequestId":"0HNJ3SNP0TID5:00000015","RequestPath":"/lottery/Lottery","ConnectionId":"0HNJ3SNP0TID5"}
+2026-02-04 14:08:19.046 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'WebApplication1.Data.StoreContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_lotteries_useres_UserId". The conflict occurred in database "newMechiraSinit", table "dbo.useres", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:48c2c3d7-9083-4564-809f-10c5cc059407
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken) {"EventId":{"Id":10000,"Name":"Microsoft.EntityFrameworkCore.Update.SaveChangesFailed"},"SourceContext":"Microsoft.EntityFrameworkCore.Update","ActionId":"829ff9bc-926b-4f25-b5e4-086497a6a918","ActionName":"WebApplication1.Controllers.LotteryController.Lottery_SendingEmail (WebApplication1)","RequestId":"0HNJ3SNP0TID5:00000015","RequestPath":"/lottery/Lottery","ConnectionId":"0HNJ3SNP0TID5"}
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_lotteries_useres_UserId". The conflict occurred in database "newMechiraSinit", table "dbo.useres", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:48c2c3d7-9083-4564-809f-10c5cc059407
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2026-02-04 14:08:19.426 +02:00 [ERR] LotteryAsync: unhandled exception during lottery run. {"SourceContext":"WebApplication1.Services.LotteryService","ActionId":"829ff9bc-926b-4f25-b5e4-086497a6a918","ActionName":"WebApplication1.Controllers.LotteryController.Lottery_SendingEmail (WebApplication1)","RequestId":"0HNJ3SNP0TID5:00000015","RequestPath":"/lottery/Lottery","ConnectionId":"0HNJ3SNP0TID5"}
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_lotteries_useres_UserId". The conflict occurred in database "newMechiraSinit", table "dbo.useres", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:48c2c3d7-9083-4564-809f-10c5cc059407
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at WebApplication1.Repository.LotteryRepository.CreateLottery(Int32 userId, Int32 giftId) in C:\Users\User\Desktop\שרי\מכירה סינית\‏‏תיקיה חדשה\c\s\WebApplication1\WebApplication1\Repository\LotteryRepository.cs:line 24
+   at WebApplication1.Services.LotteryService.LotteryAsync() in C:\Users\User\Desktop\שרי\מכירה סינית\‏‏תיקיה חדשה\c\s\WebApplication1\WebApplication1\Services\LotteryService.cs:line 95
+2026-02-04 14:08:54.969 +02:00 [ERR] Failed POST /lottery/Lottery after 37425ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID5:00000015","RequestPath":"/lottery/Lottery","ConnectionId":"0HNJ3SNP0TID5"}
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_lotteries_useres_UserId". The conflict occurred in database "newMechiraSinit", table "dbo.useres", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:48c2c3d7-9083-4564-809f-10c5cc059407
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at WebApplication1.Repository.LotteryRepository.CreateLottery(Int32 userId, Int32 giftId) in C:\Users\User\Desktop\שרי\מכירה סינית\‏‏תיקיה חדשה\c\s\WebApplication1\WebApplication1\Repository\LotteryRepository.cs:line 24
+   at WebApplication1.Services.LotteryService.LotteryAsync() in C:\Users\User\Desktop\שרי\מכירה סינית\‏‏תיקיה חדשה\c\s\WebApplication1\WebApplication1\Services\LotteryService.cs:line 95
+   at WebApplication1.Controllers.LotteryController.Lottery_SendingEmail() in C:\Users\User\Desktop\שרי\מכירה סינית\‏‏תיקיה חדשה\c\s\WebApplication1\WebApplication1\Controllers\LotteryController.cs:line 38
+   at lambda_method36(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at WebApplication1.Middleware.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\Desktop\שרי\מכירה סינית\‏‏תיקיה חדשה\c\s\WebApplication1\WebApplication1\Middleware\RequestLoggingMiddleware.cs:line 26
+2026-02-04 14:08:55.080 +02:00 [ERR] An unhandled exception has occurred while executing the request. {"EventId":{"Id":1,"Name":"UnhandledException"},"SourceContext":"Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware","RequestId":"0HNJ3SNP0TID5:00000015","RequestPath":"/lottery/Lottery","ConnectionId":"0HNJ3SNP0TID5"}
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_lotteries_useres_UserId". The conflict occurred in database "newMechiraSinit", table "dbo.useres", column 'Id'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryHasMoreRows(Boolean& moreRows)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryReadInternal(Boolean setTimeout, Boolean& more)
+   at Microsoft.Data.SqlClient.SqlDataReader.ReadAsyncExecute(Task task, Object state)
+   at Microsoft.Data.SqlClient.SqlDataReader.InvokeAsyncCall[T](SqlDataReaderBaseAsyncCallContext`1 context)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+ClientConnectionId:48c2c3d7-9083-4564-809f-10c5cc059407
+Error Number:547,State:0,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeResultSetAsync(Int32 startCommandIndex, RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ConsumeAsync(RelationalDataReader reader, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChangesAsync(IList`1 entries, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at WebApplication1.Repository.LotteryRepository.CreateLottery(Int32 userId, Int32 giftId) in C:\Users\User\Desktop\שרי\מכירה סינית\‏‏תיקיה חדשה\c\s\WebApplication1\WebApplication1\Repository\LotteryRepository.cs:line 24
+   at WebApplication1.Services.LotteryService.LotteryAsync() in C:\Users\User\Desktop\שרי\מכירה סינית\‏‏תיקיה חדשה\c\s\WebApplication1\WebApplication1\Services\LotteryService.cs:line 95
+   at WebApplication1.Controllers.LotteryController.Lottery_SendingEmail() in C:\Users\User\Desktop\שרי\מכירה סינית\‏‏תיקיה חדשה\c\s\WebApplication1\WebApplication1\Controllers\LotteryController.cs:line 38
+   at lambda_method36(Closure, Object)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at WebApplication1.Middleware.RequestLoggingMiddleware.InvokeAsync(HttpContext context) in C:\Users\User\Desktop\שרי\מכירה סינית\‏‏תיקיה חדשה\c\s\WebApplication1\WebApplication1\Middleware\RequestLoggingMiddleware.cs:line 26
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-02-04 15:22:13.241 +02:00 [INF] Incoming Request: GET /orders/Order/getOrderByGift {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID6:00000001","RequestPath":"/orders/Order/getOrderByGift","ConnectionId":"0HNJ3SNP0TID6"}
+2026-02-04 15:22:13.275 +02:00 [INF] Completed GET /orders/Order/getOrderByGift responded 401 in 35ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID6:00000001","RequestPath":"/orders/Order/getOrderByGift","ConnectionId":"0HNJ3SNP0TID6"}
+2026-02-04 15:31:43.634 +02:00 [INF] Incoming Request: GET /orders/Order/getOrderByGift {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID6:00000003","RequestPath":"/orders/Order/getOrderByGift","ConnectionId":"0HNJ3SNP0TID6"}
+2026-02-04 15:31:43.642 +02:00 [INF] Completed GET /orders/Order/getOrderByGift responded 401 in 8ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3SNP0TID6:00000003","RequestPath":"/orders/Order/getOrderByGift","ConnectionId":"0HNJ3SNP0TID6"}
+2026-02-04 15:32:32.030 +02:00 [INF] Store API now running {}
+2026-02-04 15:32:35.600 +02:00 [INF] Incoming Request: GET /swagger/v1/swagger.json {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3U7D2NQV8:00000005","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HNJ3U7D2NQV8"}
+2026-02-04 15:32:35.825 +02:00 [INF] Completed GET /swagger/v1/swagger.json responded 200 in 256ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3U7D2NQV8:00000005","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HNJ3U7D2NQV8"}
+2026-02-04 15:32:49.078 +02:00 [INF] Incoming Request: GET /orders/Order/getOrderByGift {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3U7D2NQV8:00000007","RequestPath":"/orders/Order/getOrderByGift","ConnectionId":"0HNJ3U7D2NQV8"}
+2026-02-04 15:32:55.835 +02:00 [INF] Completed GET /orders/Order/getOrderByGift responded 200 in 6756ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3U7D2NQV8:00000007","RequestPath":"/orders/Order/getOrderByGift","ConnectionId":"0HNJ3U7D2NQV8"}
+2026-02-04 15:33:31.055 +02:00 [INF] Incoming Request: GET /useres/User {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3U7D2NQV8:00000009","RequestPath":"/useres/User","ConnectionId":"0HNJ3U7D2NQV8"}
+2026-02-04 15:33:31.285 +02:00 [INF] Completed GET /useres/User responded 200 in 229ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3U7D2NQV8:00000009","RequestPath":"/useres/User","ConnectionId":"0HNJ3U7D2NQV8"}
+2026-02-04 21:59:09.445 +02:00 [INF] Incoming Request: GET /gift/GiftControler {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3U7D2NQV9:00000001","RequestPath":"/gift/GiftControler","ConnectionId":"0HNJ3U7D2NQV9"}
+2026-02-04 21:59:11.704 +02:00 [INF] Completed GET /gift/GiftControler responded 200 in 2259ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3U7D2NQV9:00000001","RequestPath":"/gift/GiftControler","ConnectionId":"0HNJ3U7D2NQV9"}
+2026-02-04 22:06:23.105 +02:00 [INF] Incoming Request: GET /gift/GiftControler {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3U7D2NQVA:00000001","RequestPath":"/gift/GiftControler","ConnectionId":"0HNJ3U7D2NQVA"}
+2026-02-04 22:06:23.208 +02:00 [INF] Completed GET /gift/GiftControler responded 200 in 103ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3U7D2NQVA:00000001","RequestPath":"/gift/GiftControler","ConnectionId":"0HNJ3U7D2NQVA"}
+2026-02-04 22:06:58.004 +02:00 [INF] Incoming Request: GET /gift/GiftControler {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3U7D2NQVB:00000001","RequestPath":"/gift/GiftControler","ConnectionId":"0HNJ3U7D2NQVB"}
+2026-02-04 22:06:58.066 +02:00 [INF] Completed GET /gift/GiftControler responded 200 in 61ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3U7D2NQVB:00000001","RequestPath":"/gift/GiftControler","ConnectionId":"0HNJ3U7D2NQVB"}
+2026-02-04 22:08:26.232 +02:00 [INF] Incoming Request: GET /gift/GiftControler {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3U7D2NQVC:00000001","RequestPath":"/gift/GiftControler","ConnectionId":"0HNJ3U7D2NQVC"}
+2026-02-04 22:08:26.290 +02:00 [INF] Completed GET /gift/GiftControler responded 200 in 58ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNJ3U7D2NQVC:00000001","RequestPath":"/gift/GiftControler","ConnectionId":"0HNJ3U7D2NQVC"}

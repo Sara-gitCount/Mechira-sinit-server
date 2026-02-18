@@ -1,0 +1,134 @@
+2026-01-23 00:13:28.090 +02:00 [INF] Incoming Request: GET /api/Donors/getByName {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ04BVLDO0:00000009","RequestPath":"/api/Donors/getByName","ConnectionId":"0HNIQ04BVLDO0"}
+2026-01-23 00:13:43.221 +02:00 [ERR] An error occurred using the connection to database '' on server '(localdb)\MSSQLLocalDB\(local)DataBase=mechiraSinit'. {"EventId":{"Id":20004,"Name":"Microsoft.EntityFrameworkCore.Database.Connection.ConnectionError"},"SourceContext":"Microsoft.EntityFrameworkCore.Database.Connection","ActionId":"192f4e7e-cae2-4592-b097-63abb8812f06","ActionName":"WebApplication1.Controllers.DonorsController.GetByName (WebApplication1)","RequestId":"0HNIQ04BVLDO0:00000009","RequestPath":"/api/Donors/getByName","ConnectionId":"0HNIQ04BVLDO0"}
+2026-01-23 00:13:43.232 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'WebApplication1.Data.StoreContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Specified LocalDB instance name is invalid.
+)
+ ---> System.ComponentModel.Win32Exception (0x89C5011B): Unknown error (0x89c5011b)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1983577829,State:0,Class:20 {"EventId":{"Id":10100,"Name":"Microsoft.EntityFrameworkCore.Query.QueryIterationFailed"},"SourceContext":"Microsoft.EntityFrameworkCore.Query","ActionId":"192f4e7e-cae2-4592-b097-63abb8812f06","ActionName":"WebApplication1.Controllers.DonorsController.GetByName (WebApplication1)","RequestId":"0HNIQ04BVLDO0:00000009","RequestPath":"/api/Donors/getByName","ConnectionId":"0HNIQ04BVLDO0"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Specified LocalDB instance name is invalid.
+)
+ ---> System.ComponentModel.Win32Exception (0x89C5011B): Unknown error (0x89c5011b)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1983577829,State:0,Class:20
+2026-01-23 00:13:43.341 +02:00 [INF] Completed GET /api/Donors/getByName responded 500 in 15251ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ04BVLDO0:00000009","RequestPath":"/api/Donors/getByName","ConnectionId":"0HNIQ04BVLDO0"}
+2026-01-23 00:35:38.546 +02:00 [INF] Incoming Request: PUT /api/Donors/AddDonation {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ04BVLDO0:0000000B","RequestPath":"/api/Donors/AddDonation","ConnectionId":"0HNIQ04BVLDO0"}
+2026-01-23 00:35:53.412 +02:00 [ERR] An error occurred using the connection to database '' on server '(localdb)\MSSQLLocalDB\(local)DataBase=mechiraSinit'. {"EventId":{"Id":20004,"Name":"Microsoft.EntityFrameworkCore.Database.Connection.ConnectionError"},"SourceContext":"Microsoft.EntityFrameworkCore.Database.Connection","ActionId":"47ef4b3c-b968-463e-8962-8e6dd2ecae05","ActionName":"WebApplication1.Controllers.DonorsController.AddDonation (WebApplication1)","RequestId":"0HNIQ04BVLDO0:0000000B","RequestPath":"/api/Donors/AddDonation","ConnectionId":"0HNIQ04BVLDO0"}
+2026-01-23 00:35:53.418 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'WebApplication1.Data.StoreContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Specified LocalDB instance name is invalid.
+)
+ ---> System.ComponentModel.Win32Exception (0x89C5011B): Unknown error (0x89c5011b)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1983577829,State:0,Class:20 {"EventId":{"Id":10100,"Name":"Microsoft.EntityFrameworkCore.Query.QueryIterationFailed"},"SourceContext":"Microsoft.EntityFrameworkCore.Query","ActionId":"47ef4b3c-b968-463e-8962-8e6dd2ecae05","ActionName":"WebApplication1.Controllers.DonorsController.AddDonation (WebApplication1)","RequestId":"0HNIQ04BVLDO0:0000000B","RequestPath":"/api/Donors/AddDonation","ConnectionId":"0HNIQ04BVLDO0"}
+Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SQL Network Interfaces, error: 50 - Local Database Runtime error occurred. Specified LocalDB instance name is invalid.
+)
+ ---> System.ComponentModel.Win32Exception (0x89C5011B): Unknown error (0x89c5011b)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.WaitForPendingOpen()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternalAsync(Boolean errorsExpected, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenAsync(CancellationToken cancellationToken, Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:-1983577829,State:0,Class:20
+2026-01-23 00:35:53.591 +02:00 [INF] Completed PUT /api/Donors/AddDonation responded 500 in 15044ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ04BVLDO0:0000000B","RequestPath":"/api/Donors/AddDonation","ConnectionId":"0HNIQ04BVLDO0"}
+2026-01-23 01:31:30.295 +02:00 [INF] Store API nou running {}
+2026-01-23 01:31:43.163 +02:00 [INF] Incoming Request: GET /swagger/v1/swagger.json {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ1PGBC3UQ:00000005","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HNIQ1PGBC3UQ"}
+2026-01-23 01:31:44.188 +02:00 [INF] Completed GET /swagger/v1/swagger.json responded 200 in 1056ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ1PGBC3UQ:00000005","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HNIQ1PGBC3UQ"}
+2026-01-23 01:31:54.170 +02:00 [INF] Incoming Request: GET /api/Donors {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ1PGBC3UR:00000001","RequestPath":"/api/Donors","ConnectionId":"0HNIQ1PGBC3UR"}
+2026-01-23 01:32:06.824 +02:00 [INF] Completed GET /api/Donors responded 200 in 12654ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ1PGBC3UR:00000001","RequestPath":"/api/Donors","ConnectionId":"0HNIQ1PGBC3UR"}
+2026-01-23 01:38:04.292 +02:00 [INF] Store API nou running {}
+2026-01-23 01:38:06.037 +02:00 [INF] Incoming Request: GET /swagger/v1/swagger.json {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ1T52TN8B:00000005","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HNIQ1T52TN8B"}
+2026-01-23 01:38:06.102 +02:00 [INF] Completed GET /swagger/v1/swagger.json responded 200 in 69ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ1T52TN8B:00000005","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HNIQ1T52TN8B"}
+2026-01-23 01:38:13.175 +02:00 [INF] Incoming Request: GET /api/Donors {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ1T52TN8C:00000001","RequestPath":"/api/Donors","ConnectionId":"0HNIQ1T52TN8C"}
+2026-01-23 01:38:20.593 +02:00 [INF] Completed GET /api/Donors responded 200 in 7417ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ1T52TN8C:00000001","RequestPath":"/api/Donors","ConnectionId":"0HNIQ1T52TN8C"}
+2026-01-23 01:38:59.788 +02:00 [INF] Incoming Request: GET /api/Donors {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ1T52TN8C:00000003","RequestPath":"/api/Donors","ConnectionId":"0HNIQ1T52TN8C"}
+2026-01-23 01:38:59.928 +02:00 [INF] Completed GET /api/Donors responded 200 in 139ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ1T52TN8C:00000003","RequestPath":"/api/Donors","ConnectionId":"0HNIQ1T52TN8C"}
+2026-01-23 01:56:19.599 +02:00 [INF] Store API nou running {}
+2026-01-23 01:56:22.201 +02:00 [INF] Incoming Request: GET /swagger/v1/swagger.json {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ27BE7OJQ:00000005","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HNIQ27BE7OJQ"}
+2026-01-23 01:56:22.254 +02:00 [INF] Completed GET /swagger/v1/swagger.json responded 200 in 58ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ27BE7OJQ:00000005","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HNIQ27BE7OJQ"}
+2026-01-23 01:56:37.033 +02:00 [INF] Incoming Request: GET /api/Donors {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ27BE7OJR:00000001","RequestPath":"/api/Donors","ConnectionId":"0HNIQ27BE7OJR"}
+2026-01-23 01:56:42.187 +02:00 [INF] Completed GET /api/Donors responded 200 in 5154ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ27BE7OJR:00000001","RequestPath":"/api/Donors","ConnectionId":"0HNIQ27BE7OJR"}
+2026-01-23 01:58:20.874 +02:00 [INF] Store API nou running {}
+2026-01-23 01:58:22.428 +02:00 [INF] Incoming Request: GET /swagger/v1/swagger.json {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ28FIH2JD:00000005","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HNIQ28FIH2JD"}
+2026-01-23 01:58:22.627 +02:00 [INF] Completed GET /swagger/v1/swagger.json responded 200 in 222ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ28FIH2JD:00000005","RequestPath":"/swagger/v1/swagger.json","ConnectionId":"0HNIQ28FIH2JD"}
+2026-01-23 01:58:35.397 +02:00 [INF] Incoming Request: GET /api/Donors {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ28FIH2JE:00000001","RequestPath":"/api/Donors","ConnectionId":"0HNIQ28FIH2JE"}
+2026-01-23 01:58:40.031 +02:00 [INF] Completed GET /api/Donors responded 200 in 4634ms {"SourceContext":"WebApplication1.Middleware.RequestLoggingMiddleware","RequestId":"0HNIQ28FIH2JE:00000001","RequestPath":"/api/Donors","ConnectionId":"0HNIQ28FIH2JE"}
