@@ -158,7 +158,6 @@ namespace WebApplication1.Tests.Services
         }
     }
 
-    // Simple grouping stub to simulate IGrouping<Gift, Order>
     internal class GroupingStub<TKey, TElement> : IGrouping<TKey, TElement>
     {
         private readonly IEnumerable<TElement> _items;
