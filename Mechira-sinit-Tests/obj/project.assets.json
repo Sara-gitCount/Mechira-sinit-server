@@ -3930,11 +3930,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\שרי\\מכירה סינית\\‏‏תיקיה חדשה\\c\\s\\WebApplication1.Tests\\WebApplication1.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\שרי\\מכירה סינית\\‏‏תיקיה חדשה\\c\\s\\Mechira-sinit-Tests\\WebApplication1.Tests.csproj",
       "projectName": "WebApplication1.Tests",
-      "projectPath": "C:\\Users\\User\\Desktop\\שרי\\מכירה סינית\\‏‏תיקיה חדשה\\c\\s\\WebApplication1.Tests\\WebApplication1.Tests.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\שרי\\מכירה סינית\\‏‏תיקיה חדשה\\c\\s\\Mechira-sinit-Tests\\WebApplication1.Tests.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\שרי\\מכירה סינית\\‏‏תיקיה חדשה\\c\\s\\WebApplication1.Tests\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\שרי\\מכירה סינית\\‏‏תיקיה חדשה\\c\\s\\Mechira-sinit-Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

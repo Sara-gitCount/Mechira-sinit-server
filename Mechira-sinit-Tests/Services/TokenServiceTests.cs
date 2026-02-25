@@ -52,7 +52,6 @@ namespace WebApplication1.Tests.Services
         {
             var inMemorySettings = new Dictionary<string, string?>
             {
-                // SecretKey intentionally omitted
                 { "JwtSettings:Issuer", "test-issuer" },
                 { "JwtSettings:Audience", "test-audience" },
                 { "JwtSettings:ExpiryMinutes", "60" }
@@ -85,7 +84,6 @@ namespace WebApplication1.Tests.Services
             var jwt = handler.ReadJwtToken(token);
 
             var minutes = (jwt.ValidTo - DateTime.UtcNow).TotalMinutes;
-            // Allow some leeway for test execution time
             Assert.InRange(minutes, 1.0, 3.0);
         }
     }

@@ -26,7 +26,6 @@ namespace WebApplication1.Tests.Controllers
             var action = await controller.getAllUsers();
 
             var ok = Assert.IsType<ActionResult<List<DtoUser>>>(action);
-            // When controller returns the value directly, the ActionResult contains the list
             var value = Assert.IsType<List<DtoUser>>(ok.Value);
             Assert.Single(value);
         }

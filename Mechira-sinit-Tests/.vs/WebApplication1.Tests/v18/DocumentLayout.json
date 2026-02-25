@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|c:\\users\\user\\desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\mechira-sinit-tests\\controllers\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|solutionrelative:controllers\\usercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|c:\\users\\user\\desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\mechira-sinit-tests\\controllers\\ordercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|solutionrelative:controllers\\ordercontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|c:\\users\\user\\desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\mechira-sinit-tests\\controllers\\lotterycontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|solutionrelative:controllers\\lotterycontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|c:\\users\\user\\desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\mechira-sinit-tests\\controllers\\giftcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|solutionrelative:controllers\\giftcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|c:\\users\\user\\desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\mechira-sinit-tests\\controllers\\donorscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|solutionrelative:controllers\\donorscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|c:\\users\\user\\desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\mechira-sinit-tests\\controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|solutionrelative:controllers\\authcontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|c:\\users\\user\\desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\mechira-sinit-tests\\services\\uesrservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|solutionrelative:services\\uesrservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|c:\\users\\user\\desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\mechira-sinit-tests\\services\\giftservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|solutionrelative:services\\giftservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|c:\\users\\user\\desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\mechira-sinit-tests\\services\\tokenservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|solutionrelative:services\\tokenservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|c:\\users\\user\\desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\mechira-sinit-tests\\services\\orderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|solutionrelative:services\\orderservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|c:\\users\\user\\desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\mechira-sinit-tests\\services\\lotteryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|solutionrelative:services\\lotteryservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|c:\\users\\user\\desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\mechira-sinit-tests\\services\\donorservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EDEE0745-CA1A-4CD1-FB6C-3E07318B634A}|WebApplication1.Tests.csproj|solutionrelative:services\\donorservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Controllers\\UserControllerTests.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserControllerTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Controllers\\UserControllerTests.cs",
+              "RelativeToolTip": "Controllers\\UserControllerTests.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T20:47:06.972Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Controllers\\OrderControllerTests.cs",
+              "RelativeDocumentMoniker": "Controllers\\OrderControllerTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Controllers\\OrderControllerTests.cs",
+              "RelativeToolTip": "Controllers\\OrderControllerTests.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T20:46:56.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LotteryControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Controllers\\LotteryControllerTests.cs",
+              "RelativeDocumentMoniker": "Controllers\\LotteryControllerTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Controllers\\LotteryControllerTests.cs",
+              "RelativeToolTip": "Controllers\\LotteryControllerTests.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T20:46:53.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GiftControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Controllers\\GiftControllerTests.cs",
+              "RelativeDocumentMoniker": "Controllers\\GiftControllerTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Controllers\\GiftControllerTests.cs",
+              "RelativeToolTip": "Controllers\\GiftControllerTests.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T20:46:49.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DonorsControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Controllers\\DonorsControllerTests.cs",
+              "RelativeDocumentMoniker": "Controllers\\DonorsControllerTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Controllers\\DonorsControllerTests.cs",
+              "RelativeToolTip": "Controllers\\DonorsControllerTests.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T20:46:45.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthControllerTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Controllers\\AuthControllerTests.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthControllerTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Controllers\\AuthControllerTests.cs",
+              "RelativeToolTip": "Controllers\\AuthControllerTests.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T20:46:39.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UesrServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Services\\UesrServiceTests.cs",
+              "RelativeDocumentMoniker": "Services\\UesrServiceTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Services\\UesrServiceTests.cs",
+              "RelativeToolTip": "Services\\UesrServiceTests.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAmwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T20:46:03.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TokenServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Services\\TokenServiceTests.cs",
+              "RelativeDocumentMoniker": "Services\\TokenServiceTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Services\\TokenServiceTests.cs",
+              "RelativeToolTip": "Services\\TokenServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T20:46:00.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OrderServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Services\\OrderServiceTests.cs",
+              "RelativeDocumentMoniker": "Services\\OrderServiceTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Services\\OrderServiceTests.cs",
+              "RelativeToolTip": "Services\\OrderServiceTests.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T20:45:56.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LotteryServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Services\\LotteryServiceTests.cs",
+              "RelativeDocumentMoniker": "Services\\LotteryServiceTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Services\\LotteryServiceTests.cs",
+              "RelativeToolTip": "Services\\LotteryServiceTests.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T20:45:52.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GiftServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Services\\GiftServiceTests.cs",
+              "RelativeDocumentMoniker": "Services\\GiftServiceTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Services\\GiftServiceTests.cs",
+              "RelativeToolTip": "Services\\GiftServiceTests.cs",
+              "ViewState": "AgIAABkBAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T20:45:46.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DonorServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Services\\DonorServiceTests.cs",
+              "RelativeDocumentMoniker": "Services\\DonorServiceTests.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\u05E9\u05E8\u05D9\\\u05DE\u05DB\u05D9\u05E8\u05D4 \u05E1\u05D9\u05E0\u05D9\u05EA\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\c\\s\\Mechira-sinit-Tests\\Services\\DonorServiceTests.cs",
+              "RelativeToolTip": "Services\\DonorServiceTests.cs",
+              "ViewState": "AgIAAJcAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-18T20:45:37.892Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

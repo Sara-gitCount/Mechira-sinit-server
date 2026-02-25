@@ -1,0 +1,17 @@
+# שלב 1: בנייה
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /app
+
+# העתקת כל הקבצים מהתיקייה שלך לתוך המכולה
+COPY . ./
+
+# הרצת הפקודה - דוקר יחפש קובץ csproj בתיקייה הנוכחית ויבנה אותו
+RUN dotnet publish -c Release -o out
+
+# שלב 2: הרצה
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
+WORKDIR /app
+COPY --from=build /app/out .
+
+# חשוב: ודאי שהשם כאן הוא השם המדויק של הפרויקט שלך!
+ENTRYPOINT ["dotnet", "WebApplication1.dll"]
